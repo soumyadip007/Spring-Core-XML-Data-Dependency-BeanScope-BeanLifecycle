@@ -10,7 +10,7 @@
     <!-- Define your beans here -->
     
     <bean id="myCoach"
-    		class="com.udemy.springlearn.TeackCoach">
+    		class="com.udemy.springlearn.TrackCoach">
 	</bean>    
 	
 	
