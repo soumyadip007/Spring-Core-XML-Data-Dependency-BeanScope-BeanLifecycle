@@ -13,5 +13,9 @@
     		class="com.udemy.springlearn.TrackCoach">
 	</bean>    
 	
+	 <bean id="myCoach1"
+    		class="com.udemy.springlearn.CricketCoach">
+	</bean>    
+	
 	
 </beans>
