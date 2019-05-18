@@ -9,9 +9,9 @@
 
     <!-- Define your beans here -->
     
+    <bean id="myCoach"
+    		class="com.udemy.springlearn.TeackCoach">
+	</bean>    
+	
+	
 </beans>
-
-
-
-
-
