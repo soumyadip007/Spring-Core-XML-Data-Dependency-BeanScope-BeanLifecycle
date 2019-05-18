@@ -1,4 +1,4 @@
-package com.example.Spring_learn;
+package com.
 
 public interface Coach {
 
