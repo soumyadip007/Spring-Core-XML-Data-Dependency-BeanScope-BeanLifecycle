@@ -1,4 +1,4 @@
-package com.example.Spring_learn;
+package com.udemy.springlearn;
 
 public class CricketCoach implements Coach {
 

@@ -1,4 +1,4 @@
-package com.
+package com.udemy.springlearn;
 
 public interface Coach {
 
