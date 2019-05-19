@@ -8,9 +8,16 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- Define your beans here -->
+     <bean id="myFortuneService"
+    		class="com.udemy.springlearn.HappyFortuneService">
+	</bean> 
+    
     
     <bean id="myCoach"
     		class="com.udemy.springlearn.TrackCoach">
+    		
+    	 <constructor-arg ref="myFortuneService" />
+    		
 	</bean>    
 	
 	 <bean id="myCoach1"
