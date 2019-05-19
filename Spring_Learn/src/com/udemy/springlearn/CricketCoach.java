@@ -7,4 +7,11 @@ public class CricketCoach implements Coach {
 	{
 		return "PLay 30 mins daily";
 	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }
