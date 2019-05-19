@@ -15,14 +15,11 @@
     
     <bean id="myCoach"
     		class="com.udemy.springlearn.TrackCoach">
-    		
-    	 <constructor-arg ref="myFortuneService" />
-    		
-	</bean>    
-	
-	 <bean id="myCoach1"
-    		class="com.udemy.springlearn.CricketCoach">
-	</bean>    
+    	<!-- set up constructor injection -->
+ 		<constructor-arg ref="myFortuneService" />
+ 	</bean>
+
+
 	
 	
 </beans>

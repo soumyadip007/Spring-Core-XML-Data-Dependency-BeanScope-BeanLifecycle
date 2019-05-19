@@ -14,11 +14,18 @@ public class HelloSpring {
 
 		// load the spring configuration file
 		Coach obj = context.getBean("myCoach", Coach.class);
-		Coach obj1 = context.getBean("myCoach1", Coach.class);
+		//Coach obj1 = context.getBean("myCoach1", Coach.class);
 		
 		// call methods on the bean
 		System.out.println(obj.getDailyWorkout());
-		System.out.println(obj1.getDailyWorkout());
+		//System.out.println(obj1.getDailyWorkout());
+		
+		
+		
+		// Lets call our new method
+		System.out.println(obj.getDailyFortune());
+		
+		
 		
 		// close the context
 		context.close();
