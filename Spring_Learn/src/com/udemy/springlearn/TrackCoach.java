@@ -4,7 +4,9 @@ public class TrackCoach implements Coach {  //Auto Generated Class
 
 	private FortuneService  fortuneService; 
 		
-	
+	public TrackCoach() {
+		
+	}
 	
 	public TrackCoach(FortuneService fortuneService) {
 	super();
@@ -19,6 +21,6 @@ public class TrackCoach implements Coach {  //Auto Generated Class
 	@Override
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub
-		return "Just Do Practice"+fortuneService.getFortuneService();
+		return "Just Do Practice : "+fortuneService.getFortuneService();
 	}
 }
