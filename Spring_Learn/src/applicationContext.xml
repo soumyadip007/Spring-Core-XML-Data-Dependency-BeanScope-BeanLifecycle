@@ -29,7 +29,9 @@
     		
     	<property name="fortuneService" ref="myFortuneService" />
     		
-    
+  <!--   	<property name="email" value="soumyadip.note@gmail.com" />
+    	
+    	<property name="team" value="INDIA" />   -->
     	
     	<property name="email" value="${foo.email}" />
     	
