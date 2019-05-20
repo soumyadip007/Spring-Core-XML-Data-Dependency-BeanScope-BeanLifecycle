@@ -20,9 +20,16 @@
     		
 	</bean>    
 	
-	 <bean id="myCoach1"
+	
+	 <bean id="myCricketCoach"
     		class="com.udemy.springlearn.CricketCoach">
+    		
+    	<property name="fortuneService" ref="myFortuneService" />
+    		
 	</bean>    
+	
+	
+	
 	
 	
 </beans>
