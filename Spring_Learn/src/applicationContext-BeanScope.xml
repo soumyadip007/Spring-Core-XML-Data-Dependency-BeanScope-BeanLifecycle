@@ -17,7 +17,8 @@
     
     
     <bean id="myCoach"
-    		class="com.udemy.springlearn.TrackCoach">
+    		class="com.udemy.springlearn.TrackCoach"
+    		scope="prototype">
     		
     	 <constructor-arg ref="myFortuneService" />
     		

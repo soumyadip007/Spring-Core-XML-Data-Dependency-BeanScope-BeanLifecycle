@@ -35,3 +35,10 @@ public class BeanScopeDemoApp {
 				context.close();
 	}
 }
+
+/*Both objects are same = false
+
+Memory alocation for obj is = com.udemy.springlearn.TrackCoach@462d5aee
+
+Memory alocation for obj1 is = com.udemy.springlearn.TrackCoach@69b0fd6f
+*/
