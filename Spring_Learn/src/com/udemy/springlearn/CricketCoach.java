@@ -12,7 +12,8 @@ public class CricketCoach implements Coach {
 	
 	//Our Setters Methods
 	public void setFortuneService(FortuneService fortuneService) {
-		System.out.println("Inside No-arg Cricket coach fortuneService");
+		System.out.println("Inside No-arg Cricket coach for"
+				+ "tuneService");
 		this.fortuneService = fortuneService;
 	}
 
