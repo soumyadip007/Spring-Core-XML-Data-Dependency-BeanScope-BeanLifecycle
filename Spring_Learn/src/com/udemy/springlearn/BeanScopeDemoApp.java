@@ -8,7 +8,7 @@ public class BeanScopeDemoApp {
 	{
 		//load spring config file
 		ClassPathXmlApplicationContext context = 
-		new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+		new ClassPathXmlApplicationContext("applicationContext-BeanScope.xml");
 
 			
 		 
