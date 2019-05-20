@@ -23,4 +23,18 @@ public class TrackCoach implements Coach {  //Auto Generated Class
 		// TODO Auto-generated method stub
 		return "Just Do Practice : "+fortuneService.getFortuneService();
 	}
+	
+	//Add an Init-Method
+	public void doMyStartupStuff() {
+		// TODO Auto-generated method stub
+		System.out.println("Trackcoach : Executing Init-Method");
+	}
+	
+	
+	//Add an destroy method
+	public void destroyMyStartupStuff() {
+		// TODO Auto-generated method stub
+		System.out.println("Trackcoach : Executing Destroy-Method");
+	}
+	
 }

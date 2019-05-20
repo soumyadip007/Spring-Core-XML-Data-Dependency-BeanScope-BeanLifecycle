@@ -18,7 +18,8 @@
     
     <bean id="myCoach"
     		class="com.udemy.springlearn.TrackCoach"
-    		scope="prototype" >
+    			init-method="doMyStartupStuff"
+    		destroy-method="destroyMyStartupStuff" >
     		
     	 <constructor-arg ref="myFortuneService" />
     		
